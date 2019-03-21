@@ -1,0 +1,29 @@
+{
+    "name": "Leauge Checker",
+    "description" : "Uses the Riot API to retreave data about summoners",
+    "version": "1.0",
+    "web_accessible_resources": ["src/options/options.html"],
+    "manifest_version": 2,
+    "options_page": "options.html",
+    "permissions": ["activeTab","storage",
+        "https://na1.api.riotgames.com/*",
+        "https://*/"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "48": "img/48.png",
+            "128": "img/128.png"
+          }
+    },
+    "icons": {
+        "48": "img/48.png",
+        "128": "img/128.png"
+      },
+    "background": {
+        "scripts": ["background.js"]    
+    }
+      
+}
+  
+  

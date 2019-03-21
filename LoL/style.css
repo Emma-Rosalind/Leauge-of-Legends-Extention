@@ -1,0 +1,159 @@
+
+body{
+    text-align: center;
+    width:300px;
+    padding-bottom:0px;
+    color: rgb(216, 183, 91);
+    margin:0px;
+
+}
+.content {
+    position: relative;
+    z-index: 10;
+  }
+.bg-img {
+    background: url("img/image.png") center center no-repeat;
+    background-size: cover;
+    background-position: top right;
+   }  
+.bg-img:after {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom ,#023350,#1a274c);
+	opacity: 0.7; 
+ 
+}
+#name{
+    color:white;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    margin-bottom:0px;
+}
+.title{
+    font-size: 15px;
+    font-weight: 400;
+    color:rgb(241, 241, 241);
+    margin-bottom:10px;
+
+}
+.small{
+    font-size: 0.9rem;
+}
+.small2{
+    font-size: 1.3rem;
+}
+
+.live{
+    background-color:  rgb(55, 126, 57);
+    border: solid 1px rgb(55, 126, 57);
+}
+
+.client{
+    background-color: rgb(128, 181, 216);
+    border: solid 1px rgb(71, 127, 165);
+}
+.offline{
+    background-color: rgb(218, 66, 66);
+    border: solid 1px rgb(158, 29, 29);
+}
+.inQ{
+    background-color: lightblue;
+    border: solid 1px rgb(88, 89, 158);
+}
+
+#status{
+    width:50%;
+    height: 4px;  
+    margin:auto;
+    border: 1px solid rgb(209, 177, 90);
+    overflow: auto;
+    border-radius: 20px;
+}
+
+#icon{
+    position: absolute;
+    left : 50px;
+    width: 50px;
+    height:50px;
+    border: black solid 1px;
+    border-radius: 25px; 
+   
+}
+.move{
+    position: absolute;
+    right: 70px;
+    bottom:50px;
+}
+.container{
+    height:50px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.line{
+    height: 3px;
+    width: 90%;
+    margin:auto;
+    background-color: rgb(179, 146, 57);
+    border: 1px solid rgb(223, 186, 86);
+}
+
+
+#rank{
+    margin-left: 20%;
+    height: 80px;
+    padding-top:20px;
+}
+
+#tier {
+    width:50%;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left:30%;
+}
+
+#role, #champ, #kda{
+    padding: 5px;
+    position: absolute;
+    margin:auto;
+    height: inherit;
+}
+#role{
+    width: 60px;
+    left:40px;
+}
+#champ{
+right:55%;
+}
+#kda{
+    right:40px;
+    width: 60px;
+    padding-top:10px;
+}
+#stats{
+    width: 100%;
+    height: 50px;
+}
+
+#icon{
+    position: absolute;
+    border: 2px solid  rgb(209, 177, 90);
+    border-radius: 30px;
+    width: 45px;
+    height: 45px;
+    left:42%;
+    top:0px;
+}
+
+#sum{
+    position: absolute;
+    right:25px;
+}

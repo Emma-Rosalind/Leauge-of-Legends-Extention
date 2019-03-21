@@ -1,0 +1,35 @@
+body.op{
+    text-align: center;
+    background: url("img/back.png") center center no-repeat;
+    background-size:40%;
+    background-position:50% -40%;
+}
+
+.container{
+    margin:auto; 
+    margin-top:20%;
+    padding: 20px;
+    width: 400px;
+    border: 2px solid  rgb(216, 183, 91);
+    background-color:rgba(255, 255, 255, 0.808);
+}
+
+#box{
+    margin: 10px;
+}
+
+.title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button{
+    background-color: #023350;
+    border: none;
+    color:rgb(216, 183, 91);
+    padding:10px 20px;
+    margin:15px;
+    border-radius: 25px;
+    font-weight: 800px;
+    font-size: 15px;
+}
