@@ -1,4 +1,4 @@
-var key = "put me here";// 24 hour key
+var key = "RGAPI-c56e233b-4a58-4a67-89b6-54a607b50376";// 24 hour key
 var name;
 var sumID;
 var accID;
@@ -54,7 +54,7 @@ function get() {
 }//get
 
 function getRank() {
-  url = "https://" + reg + ".api.riotgames.com/lol/league/v4/positions/by-summoner/" + sumID + "?api_key=" + key;
+  url = "https://" + reg + ".api.riotgames.com/lol/league/v4/entries/by-summoner/" + sumID + "?api_key=" + key;
   getData(url, function (data) {
 
     if (JSON.stringify(data) == "[]") {
@@ -261,7 +261,8 @@ function champPhoto(champ) {
 
 }
 
-function gameMode(num){
+function gameMode(num){   
+  //needs refactoring
 
 switch(num) {
   case 0:
