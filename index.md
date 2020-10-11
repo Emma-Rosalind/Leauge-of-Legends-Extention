@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## The information you want at your fingertips
 
-You can use the [editor on GitHub](https://github.com/emmajohnson3/Leauge-of-Legends-Extention/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Do you have a friend that is addicted to Leauge of Legends? Sick of cruising through op.gg to see if they are stuck in a 40 minute game or will wake up at noon because they played untill 5 am last night? Well this extention will allow you to quickly check without going out of your way! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+After selecting a summoner simply click on the extention to bring up relevent statisics such as win rate, time last played, rank and current game time. 
 
-### Markdown
+### Use
+Diffrent information is displayed depending if the player is still in game or not 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Image of extention states](use.png)
+
+Currently this application does not have a permenant API key, you can add your own 24 hour key to the code by updating line one in `popup.js`:
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+`var key = "RGAPI-example";`
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Creation
+Key actions I wanted to streamline with this extention included:
+* Checking if Tyler1 has reached challenger
+* Seeing if my boyfriend is not responding because he is is in a game
+* Confirming that my boyfriend is an idiot because he played untill 5am before our date
+* Checking my own win rate for the day
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/emmajohnson3/Leauge-of-Legends-Extention/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This application could also potentially be used to check if a streamer is online, since most play only while streaming.
 
-### Support or Contact
+Mockups were done with adobe XD and brought to life through HTML, JS and use of the Riot Games API!
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Ongoing work
+- [x] Updating the code to work with Riot API v6
+- [x] Updating this page
+- [ ] Hiding the API key with AWS
+- [ ] Applying for a permanent  API key
